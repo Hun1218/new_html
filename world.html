@@ -1,0 +1,72 @@
+<doctype html5 />
+<html>
+    <head>
+        <title>실습</title>
+    </head> 
+    <body>
+        <form>
+            <table border="1" align="center" width="700px">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <tr height="30px"> <!--아이디-->
+                    <td width="30%" align="center">아이디</td>
+                    <td><input type="text" name="id" placeholder="(최소 6~최대10, 숫자와알파벳만 사용)" size="30" required></td>
+                </tr>
+                <tr height="30px"><!--비밀번호-->
+                    <td align="center">비밀번호</td>
+                    <td><input type="password" name="pw" min="6" max="10" size="10" style="ime-mode:inactive;" >(최소 6~최대10, 숫자와알파벳만 사용)</td>
+                </tr>
+                <tr height="30px"><!--비밀번호확인-->
+                    <td align="center">비밀번호확인</td>
+                    <td><input type="password" name="pw" min="6" max="10" size="10" style="ime-mode:inactive;">(최소 6~최대10, 숫자와알파벳만 사용)</td>
+                </tr>
+                <tr height="30px"><!--주민번호-->
+                    <td align="center">주민번호</td>
+                    <td><input type="password" size="15" name="hw"> - <input type="password" size="15" name="hw"></td>
+                </tr>
+                <tr height="30px"><!--성별-->
+                    <td align="center">성별</td>
+                    <td><input type="radio" name="gender">남<input type="radio" name="gender">여</td>
+                </tr>
+                <tr height="30px"><!--전화번호-->
+                    <td align="center">전화번호</td>
+                    <td>
+                        <input type="tel" name="tel" size="4"> - 
+                        <input type="tel" name="tel" size="4"> - 
+                        <input type="tel" name="tel" size="4">
+                    </td>
+                </tr>
+                <tr height="30px"><!--이메일-->
+                    <td align="center">이메일</td>
+                    <td><input type="email" name="email" size="10" style="ime-mode: inactive;">@
+                        <select>
+                            <option>naver.com</option>
+                            <option>daum.com</option>
+                            <option>nate.com</option>
+                            <option>navs.com</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr height="30px"><!--취미-->
+                    <td align="center">취미</td>
+                    <td>
+                        <input type="checkbox" value="a" name="등산">등산<input type="checkbox" value="b" name="독서">독서<input type="checkbox" value="c" name="스키">스키<input type="checkbox" value="d" name="음악">음악<input type="checkbox" value="f" name="영화">영화
+                    </td>
+                </tr>
+                <tr height="30px"><!--자기소개-->
+                    <td align="center">자기소개</td>
+                    <td><textarea cols="50" rows="8"></textarea></td>
+                </tr>
+                <tr height="30px" align="center"><!--자기소개-->
+                    <td colspan="2"><input type="button" value="입력" style="ime-mode: active;">&nbsp;<input type="reset" value="취소"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+    </html>

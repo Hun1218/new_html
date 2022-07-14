@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Form Basic</title>
+</head>
+<body>
+    <form method="get" action="" enctype="multipart/form-data">
+        <input type="text" name="id" required size="30" maxlength="5" placeholder="아이디 입력"/><br />
+        <input type="button" value="버튼"/><br />
+        <button>버튼2</button>
+        <input type="checkbox" name="hobby" checked value="1"/>등산
+        <input type="checkbox" name="hobby" value="2"/>영화
+        <input type="checkbox" name="hobby" value="3"/>음악<br />
+        <input type="file" name="filename"/><br /><!--파일첨부 enctype="multipart/form-data"-->
+        <input type="hidden" name="aaa" value="qqq"/><br />
+        <input type="image" src="./images/면접용3.jpg"/><br />
+        <input type="password" name="pw" size="10" maxlength="10"/><br />
+        <input type="radio" name="gender1" value="남"/>남
+        <input type="radio" name="gender2" value="여"/>여<br />
+        <input type="radio" name="hobby" value="등산"/>등산
+        <input type="radio" name="hobby" value="영화"/>영화<br />
+        <input type="reset" value="리셋" /><br />
+        <input type="submit" value="입력"/>
+        <!--required 반드시 입력값-->
+    </form>
+</body>
+</html>
